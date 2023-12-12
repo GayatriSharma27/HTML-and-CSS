@@ -1,0 +1,157 @@
+body {
+  background-color:black;
+  background-size:cover;
+}
+
+/* Remove underline */
+.section-link{
+  text-decoration: none;
+  color: pink;
+  font-size:20px;
+}
+
+/* Styling for navigation bar links */
+
+nav{
+ list-style-type:none;
+ margin:0;
+ padding:0;
+ background-color:black;
+ padding: 10px;
+ text-align: center;
+}
+      nav a {
+          text-decoration: none; /* Remove underlines */
+        
+          padding: 10px 20px; 
+          display: inline-block;
+          transition: background-color 0.3s; /* Smooth transition on hover */
+      }
+
+      /* Hover effect for navigation bar links */
+      nav a:hover {
+          background-color: gray; /* Change background color on hover */
+ }
+
+/* arranging the section links in horizontal nav bar */
+.flex-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;  
+}
+
+/* name of the restaurant in the navigation bar */
+.name{
+  color:white;
+  font-family: 'Dancing Script', cursive;
+  margin-top:-15px;
+  font-size:30px;
+  margin-left:50px;
+  
+}
+
+.sname{
+   color:white;
+  margin-top:15px;
+  margin-left:-330px;
+  font-size:15px;
+}
+
+.main-heading {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-family: 'san-consolas', serif;
+  margin-top:90px;
+  font-size:50px;
+}
+
+.half-name{
+  font-family: 'Dancing Script', cursive;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  margin-top:-25px;
+  margin-left:-150px;
+  font-size:50px;
+}
+.rest-heading{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-family: 'san-consolas', serif;
+  margin-top:-95px;
+  font-size:50px;
+  margin-left:160px;
+}
+
+/* align-image to the middle of the page */
+.home-image{
+   display: block;
+    margin: 0 auto;
+    margin-top:-30px;
+}
+
+/* Menu */
+.menu-heading{
+  color:white;
+  font-family: 'san-consolas', serif;
+  font-size:70px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:80px;
+}
+.menu{
+  font-family: 'Sacramento', cursive;
+  color:white;
+  margin-left:510px;
+  font-size:70px;
+  margin-top:-40px;
+}
+
+/*menu options */
+.sec1{
+  color:skyblue;
+  display:flex;
+  justify-content:right;
+  font-size:45px;
+  margin-right:290px;
+}
+
+/* Menu Images */
+.menu-img1{
+   margin-left:95px;
+   margin-top:-10px;
+}
+
+/*for all images on right */
+.menu-img2{
+   margin-left:670px;
+  margin-top:85px;
+}
+
+table h3{
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  justify-content:space-around;
+  margin-left:350px;
+  margin-top:-150px;
+}
+#table-content{
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  justify-content:space-between;
+  margin-left:500px;
+  margin-top:-500px;
+  margin-right:-500px;
+  
+}
