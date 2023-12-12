@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(0, 31, 63);
+    font-size:100px;
+    text-align: center;
+    color:white;
+    margin-left:280px;
+  }
+  
+  /* class for 3 */
+  .three{
+    margin-top:-364px;
+    animation: jump 1s forwards;
+    animation-delay:5s;
+  }
+  
+  /* class 202 only */
+  .main{
+     margin-left:-390px;
+     animation: year 11s forwards;
+  }
+  
+  /* Class for 4 */
+  .div{
+    text-align:right;
+    margin-top:-364px;
+    position:relative;
+    animation: four 7s forwards;
+    
+  }
+  
+  /* Animation for 4 */
+  @keyframes four {
+    0%  {color:rgb(0, 31, 63); left:0px; top:0px;}
+    10% {color:pink; left:-100px; top:0px;}
+    20% {color:grey; left:-150px; top:0px;}
+    30% {color:red; left:-200px; top:0px;}
+    40% {color:green; left:-250px; top:0px;}
+    50% {color:blue; left: -300px; top:0px;}
+    60% {color:purple; left: -350px; top:0px;}
+    70% {color:brown; left:-370px;top:0px;}
+    80% {color:aqua; left:-395px; top: 0px;}
+    100% {color:yellow; left:-474px;}
+  }
+  
+  /*animation for 3 */
+  @keyframes jump{
+    0%, 20% {
+      transform: translateY(0); color:white; /* Initial, mid, and final positions */  }
+    
+    50% {
+      transform: translateY(-90px); color:white; /* Jump up  */  } 
+    
+    100% {
+      transform: translateY(300px); color:rgb(0, 31,63); /* Jump down */   } 
+    
+  }
+  
+  /* animation for 2024 on whole */
+  
+  @keyframes year {
+    50% {color: white;}
+    100% {color:yellow;}
+  }
+  
