@@ -1,64 +1,112 @@
+@import url(https://fonts.google.com/specimen/Playfair+Display?query=playfair);
 body{
-    background-color: rgb(0, 31, 63);
-    font-size:100px;
-    text-align: center;
-    color:white;
-    margin-left:280px;
+  background-color: rgb(0, 31, 63);
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: cover;
+  font-size:8vw;
+  text-align: center;
+  color:white;
+  margin:0;
+}
+
+.main-heading{
+  margin-top:2vw;
+  color:chocolate;
+  margin-bottom: -25vw;
+  font-family: 'Playfair Display';
+  font-weight:400vw;
+  font-size:7vw;
+  font-style: italic;
+}
+
+.happy {
+  animation: happy1 5s forwards;
+  margin-right:10vw;
+  padding-right:20vw;
+}
+
+@keyframes happy1{
+  0% {transform: translateY(-25vw); }
+  50% {transform: translateY(0vw);}
+  100% {transform: translateY(0vw);}
+}
+
+.new{
+  animation: new1 10s forwards;
+  margin-top:-20vw;
+  margin-left:33vw;
+
+}
+
+@keyframes new1{
+  0% {transform: translateY(-25vw); }
+  50% {transform: translateY(0vw);}
+  100% {transform: translateY(0vw);}
+}
+
+.year{
+  color: chocolate;
+  margin-top:-23vw;
+  margin-left:-70vw;
+  font-size: 12vw;
+  position:relative;
+  animation: year1 3s forwards;
+  align-items:center; 
+  transition-timing-function: ease-out;
+}
+
+@keyframes year1{
+  0% {transform: translateX(0vw);}
+  100% {transform: translateX(28vw);}
+}
+ 
+.three{
+  color:olivedrab;
+  margin-left:20vw;
+  margin-top:-3vw;
+  padding:-30vw;
+  animation: three1 10s forwards;
+  animation-delay:3s;
+} 
+
+@keyframes three1{
+  0% {transform: translateX(0); opacity: 1}
+  70% {transform: translateX(30); opacity: 1}
+  100% {transform: translateX(50vw);  opacity: 0}
+}
+/*
+.four{
+  margin-left: 95vw;
+  margin-top: -40vw;
+  font-size: 20vw;
+  animation: four1 6s forwards;
+  position: relative;
+}
+
+@keyframes four1{
+  0%   {color:rgb(0, 31, 63); left:0px;  top: 1vw;}
+  65%  {color:white; left:-27vw;  top: 1vw;}
+  80% {color: white; top: 1vw;}
+  97%  {color:white; top: 1vw;}
+  100% {color:yellow; left: -36vw; top:1vw;}
+}
+
+
+
+@keyframes appear-rib {
+  0% {
+    opacity: 0;
   }
-  
-  /* class for 3 */
-  .three{
-    margin-top:-364px;
-    animation: jump 1s forwards;
-    animation-delay:5s;
+  70%{
+    opacity: 0;
   }
-  
-  /* class 202 only */
-  .main{
-     margin-left:-390px;
-     animation: year 11s forwards;
+  97%{
+    opacity: 0;
   }
-  
-  /* Class for 4 */
-  .div{
-    text-align:right;
-    margin-top:-364px;
-    position:relative;
-    animation: four 7s forwards;
-    
+  100% {
+    opacity: 1;
   }
-  
-  /* Animation for 4 */
-  @keyframes four {
-    0%  {color:rgb(0, 31, 63); left:0px; top:0px;}
-    10% {color:pink; left:-100px; top:0px;}
-    20% {color:grey; left:-150px; top:0px;}
-    30% {color:red; left:-200px; top:0px;}
-    40% {color:green; left:-250px; top:0px;}
-    50% {color:blue; left: -300px; top:0px;}
-    60% {color:purple; left: -350px; top:0px;}
-    70% {color:brown; left:-370px;top:0px;}
-    80% {color:aqua; left:-395px; top: 0px;}
-    100% {color:yellow; left:-474px;}
-  }
-  
-  /*animation for 3 */
-  @keyframes jump{
-    0%, 20% {
-      transform: translateY(0); color:white; /* Initial, mid, and final positions */  }
-    
-    50% {
-      transform: translateY(-90px); color:white; /* Jump up  */  } 
-    
-    100% {
-      transform: translateY(300px); color:rgb(0, 31,63); /* Jump down */   } 
-    
-  }
-  
-  /* animation for 2024 on whole */
-  
-  @keyframes year {
-    50% {color: white;}
-    100% {color:yellow;}
-  }
-  
+} */
+
